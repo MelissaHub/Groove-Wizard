@@ -1,2 +1,2 @@
 # Groove-Wizard
-A small developed turnfighting game where you fight a wizard using earth wind and fire.
+A small developed turn fighting game where you fight a wizard using earth wind and fire.
