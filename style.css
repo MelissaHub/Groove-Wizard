@@ -1,0 +1,72 @@
+.parent{ 
+    
+    display:grid;
+    background-color: rgb(255, 255, 255);
+    height:700px;
+    width: 1400px;
+    grid-template-columns: 2% 8% 9% 4% 45% 9% 11% ; 
+    grid-template-rows: 5% 10% 5% 10% 5% 10% 5% 25% 15% ; 
+    grid-gap:18px 15px;
+    border: solid black;
+    /* row colum for gap */
+}
+/*SOlid to see the border!*/
+/* 1f to all be equal spaces */
+
+.child{ 
+
+    padding:25;
+    font-size: 2em; 
+    text-align: center;
+}
+
+.child-1{ 
+    border: solid red;
+    grid-area: 2/2/3/4;
+
+    /*grid area row start/column-start/row-end/column-end*/
+
+  
+}
+
+.child-2{ 
+    border: solid orange;
+    grid-area: 4/2/5/4;
+
+}
+
+
+.child-3{ 
+    border: solid yellow;
+    /*grid-area: 1/2/3/4;*/
+    grid-area: 6/2/7/4;
+
+    
+}
+
+
+.child-4{ 
+    border: solid green;
+    grid-area: 3/7/6/8;
+
+
+}
+
+
+.child-5{ 
+    border: solid purple;
+    grid-area: 8/3/9/7;
+}
+
+
+.child-6{ 
+    border: solid blue;
+    grid-area: 3/5/6/6;
+}
+
+
+
+.child-7{ 
+    border: solid pink;
+
+}
