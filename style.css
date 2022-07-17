@@ -4,11 +4,15 @@
     background-color: rgb(255, 255, 255);
     height:700px;
     width: 1400px;
+    margin: 18%;
+
     grid-template-columns: 2% 8% 9% 4% 45% 9% 11% ; 
     grid-template-rows: 5% 10% 5% 10% 5% 10% 5% 25% 15% ; 
     grid-gap:18px 15px;
     border: solid black;
     /* row colum for gap */
+    background-image:url('');
+   background-size: cover;
 }
 /*SOlid to see the border!*/
 /* 1f to all be equal spaces */
@@ -20,6 +24,10 @@
     font-family: monospace;
     text-align: center;
     border-radius: 8px;
+}
+
+.child:hover{ 
+    box-shadow: 0 0 10px 2px rgb(170, 29, 29)
 }
 
 .child-1{ 
