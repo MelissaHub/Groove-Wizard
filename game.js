@@ -214,9 +214,7 @@ console.log('ran')
 
     c3.addEventListener('click', firebtn) 
         }
-        //while less that ten, if either is more it responds the if statement
-    
-    //need a reset
+  
     
 
     startGame()
@@ -225,39 +223,5 @@ console.log('ran')
       score.innerHTML = 'Groove: ' + computerScore +'<br>' + 'User: ' + userScore 
     }
 
-        // if(playerSelection == 'earth' && computerSelection == 'earth'){
-            
-        // return response  = "Earth V Earth, NO SCORE!"}
-    
-        //     else if(playerSelection == 'earth' && computerSelection == 'wind'){
-        //         return response  = "Goove chose wind! You take a hit!" userScore -1 ,computerScore +1}
-    
-        //         else if(playerSelection == 'earth' && computerSelection == 'fire'){
-        //             return response  = "Goove chose fire! Groove is hit!" userScore +1 ,computerScore -1} 
-            
-        //                     else if(playerSelection == 'wind' && computerSelection == 'earth'){
-        //                         return response  = "Groove chose earth! You hit yourself!" userScore -1 }   
-                                
-        //                         else if(playerSelection == 'wind' && computerSelection == 'wind'){
-        //                             return response  = "Groove chose wind! You empower Groove!" computerScore +1} 
-                             
-        //                             else if(playerSelection == 'wind' && computerSelection == 'fire'){
-        //                                 return response  = "Groove chose fire! You extinguish their flame!" userScore +1 ,computerScore -1} 
-                                                                
-        //                                     else if(playerSelection == 'fire' && computerSelection == 'earth'){
-        //                                         return response  = "Groove chose earth! You are not affected" computerScore -1} 
-                                                                        
-        //                                         else if(playerSelection == 'fire' && computerSelection == 'wind'){
-        //                                             return response  = "Groove chose wind! You get extinguished" userScore -1} 
-                                                                            
-        //                                             else {
-        //                                                 return response  = "Groove chose fire! You both are empowered!" userScore +1 ,computerScore +1} 
-        //                                                 //both chose fire
-                                        
-                                    
-        // }
-
-
-//     //to go into playround
 
 

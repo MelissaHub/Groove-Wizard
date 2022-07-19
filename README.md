@@ -76,18 +76,36 @@ This is the look witht the atempted background
 
 3. Have a userscore and computer score variable equal to zero to be added to.
 
-4. Then for the c1-4 buttons give them event listeners to activate when press.
+4. Then for the c1-4 buttons give them event listeners to activate when press, each btn will have a different fuction corresponding for earthbtn, windbtn, firebtn ( create those functions below as well.). c4 will have the reset function
 
 5. c4 will have c4.style.display ='none' because it will not be shown until the ending to reset the game
 
+6. Create an empty string called playerselection which will be filled with whichever is filled
+
+7. in each of the element functions you will have playerselection = '(name of correstonding element function ext. earth) playRound() refreshStats() winner()
+
+8. winner() simply decided the winner and will display the c4 reset button
+
+9. Create a reset fucntion that   document.location.reload(true) which will reset the page when clicked
+
+10. computerPlay is a randomizer for the computer to choose earth wind or fire strings.
+
+11. playround() is the actual switch case that plays whichever is selcted and stores it the score. You can play with which adds scores ( I tried to do decriment scores, but that made it more complicated).
+
+12. startGame() function activates when the c1-3 buttons are clicked witht eh event listeners inside. startGame() is called again to activate.
+
+13. refreshStats() applies the states to the score varible and update everytime a button is pressed which goes into startGame and go through the buttons.
+
+
+
 ---------
-## Goals
+## Goals / Adjustments
 ---------
-I will make a function storing the selections that hold value. For example: if user makes the right choice you gain a part and get 10 more robot strength. Otherwise it would show you loose 10 robot strength from either a bad trade or loss. I hope to display inventory as well as the percentage. Hopefully if I get all of this to work items may go missing from a character who steals them. Then at the end you chose to fight with whatever percentage strength you robot is. For now im not including firepower and assuming both is at an equal fire power. ( may use space battle for help.)
+It appears that each button doesnt randomize the computer play properly. Also I would love to have a decriment systems as well as the bg character showing agony and success. I know many new skills now whih wont bee hard to correct and impliment
 
 
 ## Credits
 
-My Per Scholas classmates kept me motivated and understand that I'm not alone with known unknowns and unknown unknowns, It's something about struggling together you know.
+My Per Scholas classmates kept me motivated and understand that I'm not alone with known unknowns and unknown unknowns, It's something about struggling together you know. Also thank my Professor Tishana for teaching me the skills to even start and understand this process.
 I would have never even fathomed it to even work is it wasnt for my wonderful classmate Chudi for making an effort and being so pacient with me on this project. They helped me learn a massive amount of techniques and most importanly why they are used. Torwards the end I could start implimenting corrections and adjectments. Thanks so much
 
