@@ -109,3 +109,8 @@ It appears that each button doesnt randomize the computer play properly. Also I 
 My Per Scholas classmates kept me motivated and understand that I'm not alone with known unknowns and unknown unknowns, It's something about struggling together you know. Also thank my Professor Tishana for teaching me the skills to even start and understand this process.
 I would have never even fathomed it to even work is it wasnt for my wonderful classmate Chudi for making an effort and being so pacient with me on this project. They helped me learn a massive amount of techniques and most importanly why they are used. Torwards the end I could start implimenting corrections and adjectments. Thanks so much
 
+
+## PLAY HERE
+
+https://melissahub.github.io/Melissa.github.io/
+

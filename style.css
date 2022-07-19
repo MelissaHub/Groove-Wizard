@@ -4,7 +4,7 @@
     background-color: rgb(255, 255, 255);
     height:700px;
     width: 1400px;
-    margin: 18%;
+    margin: 10% 18% 10% 18%;
 
     grid-template-columns: 2% 8% 9% 4% 45% 9% 11% ; 
     grid-template-rows: 5% 10% 5% 10% 5% 10% 5% 25% 15% ; 
@@ -81,6 +81,7 @@
 
 .child-5{ 
 
+    border: solid rgb(255, 255, 255);
     grid-area: 8/3/9/7;
     background-image:url('bottombar.png');
     background-size: cover;
@@ -90,11 +91,13 @@
 
 
 .child-6{ 
-
+    display: flex;
+    justify-items:center;
     border: solid rgb(255, 255, 255);
     grid-area: 3/5/6/6;
     background-image:url('buttonres.png');
     background-size: cover;
+    
 
 
 }
