@@ -1,7 +1,7 @@
 # Groove-Wizard
 A small developed turn fighting game where you fight a wizard using earth wind and fire.
 ----------
-My intentions was to make a story choice game where the user has to haggle items for parts to their robot. In recording the users choices at the end with a final score between 1-100 it'll determine if you got enough parts strong enough to beat the random output opponet. I followed Web Dev simplified to get the skeletal references on how to set up the story mode.
+I wanted to see If I could make a simple turn based game. It uses the same format of rock, paper, scissors. When I tried my first game I realize start small and then grow.
 
 ----------
 
@@ -12,32 +12,43 @@ My intentions was to make a story choice game where the user has to haggle items
 
 2.chrome
 
-3.Text Adventure refence:    https://www.youtube.com/watch?v=R1S_NhKkvGA
+3.The endurance of a thousand suns
 
-4.Background image: 
+4.Background image/gif: 
 
-![Main background](mainbg.jpg)
+(![Main bg](flat1.jpg))
 
-5.Character Speaking: 
-
-![Speaker](face1.png)
+5.Button assests: 
+![](bottombar.png)
+![](bte.png)
+![](btf.png)
+![](btw.png)
+![](score.png)
 
 ----------
 
 ## Installing / Attempts / bugs
 ------
 ### HTML
--Boiler plate (Html 5)
+- Boiler plate (Html 5)
 
--Have CSS(style.css) and JAVASCRIPT(game.js) up and link in head of boiler
+- Have CSS(style.css) and JAVASCRIPT(game.js) up and link in head of boiler
 
--body has 1 main div that holds the text and buttons
+- body has 1 main div with 6 other divs lined up.
 
--Images/ exterior buttons were added in the body on the outside.
+- All the child divs have class = " child(by itself to link all the children together) child-(#number to know which) as well as box and name number to show up on html on screen. For child-5 this will be the start game and response boxes. child-6 will be the reset popup.
+
+
 
 ### CSS
 
--many isues insued where I tried to make flex, grid both and neither in css along with the set concept of the text container itself. I did so much reserch on how to overlap everything to get this output:
+- This is where we use grid to organize the child divs. Call all the child-1-6 classes and give them a different color border to identify each
+
+- In the parent class display: with the sizes, margins(to help center), height, and width. From he it was playing around with the grid-template-columns and grid-template-rows and grid-gap to meet the ideal wireframe:
+
+![wire](wireframe.jpg)
+
+- This is the end look we are looking for.
 
 ![full look](ref1.jpg)
 
@@ -48,18 +59,35 @@ Reference videos and websites:
 - (Guide to flexbox) https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - (How to overlap divs) https://css-tricks.com/how-to-stack-elements-in-css/
 
-I tried multiple things to simply get them to sit on top of eachother
+The child divs are atop the parent
 
 This is the look witht the atempted background
 ![Scrren1](ref2.png)
 
+- to apply the art simply use:   background-image:url(image link');
+   background-size: cover(to fill image);
+
 
 ### JavaScript
 
-Sadly I never even got the text to translate to the html even though it's linked properly. Somehow lines 1, 19, 20 and 55 refeuse to communicate. textNodes hold arrays of objects where if acted upon the foreach should react to each option. But I've been stuck with even showing
+1. I assigned all the child divs to a variable.
+
+2. Then I made each assigned variable an innerHtml to appear in each div
+
+3. Have a userscore and computer score variable equal to zero to be added to.
+
+4. Then for the c1-4 buttons give them event listeners to activate when press.
+
+5. c4 will have c4.style.display ='none' because it will not be shown until the ending to reset the game
 
 ---------
 ## Goals
 ---------
 I will make a function storing the selections that hold value. For example: if user makes the right choice you gain a part and get 10 more robot strength. Otherwise it would show you loose 10 robot strength from either a bad trade or loss. I hope to display inventory as well as the percentage. Hopefully if I get all of this to work items may go missing from a character who steals them. Then at the end you chose to fight with whatever percentage strength you robot is. For now im not including firepower and assuming both is at an equal fire power. ( may use space battle for help.)
+
+
+## Credits
+
+My Per Scholas classmates kept me motivated and understand that I'm not alone with known unknowns and unknown unknowns, It's something about struggling together you know.
+I would have never even fathomed it to even work is it wasnt for my wonderful classmate Chudi for making an effort and being so pacient with me on this project. They helped me learn a massive amount of techniques and most importanly why they are used. Torwards the end I could start implimenting corrections and adjectments. Thanks so much
 

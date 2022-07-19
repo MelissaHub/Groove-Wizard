@@ -13,7 +13,6 @@ let response = document.querySelector('.child-5')
 // let scoreBoard =document.getElementById("child-6").innerHTML
 
 //calling boxes
-//how to turn the c's into buttons and stay their size
 
 
 c1.innerHTML = 'earth'
@@ -27,16 +26,9 @@ score.innerHTML = 'Groove:  <br>User: </br>'
 
 let userScore = 0
 let computerScore = 0
+//start score at base
 
 
-
-// let select =(e) => { 
-//     let x = e.composedPath(0)
-//     console.log (x[0])
-//     x[0].setAttribute('value','on')
-//     console.log (x[0])
-// }
-//     let select2 = select.bind()
 
 c1.addEventListener('click', earthbtn) 
   
@@ -99,7 +91,7 @@ function winner(){
         c1.style.display = 'none'
         c2.style.display = 'none'
         c3.style.display = 'none'
-        c4.style.display ='block'
+                 c4.style.display ='block'
         }
        }
 }

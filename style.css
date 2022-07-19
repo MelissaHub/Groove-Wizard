@@ -10,7 +10,7 @@
     grid-template-rows: 5% 10% 5% 10% 5% 10% 5% 25% 15% ; 
     grid-gap:18px 15px;
     border: solid black;
-    /* row colum for gap */
+    /* row column for gap */
     background-image:url('flat1.jpg');
    background-size: cover;
 }
@@ -21,6 +21,7 @@
 
     padding:25;
     font-size: 2em; 
+    color:white;
     font-family: monospace;
     text-align: center;
     border-radius: 8px;
@@ -31,8 +32,10 @@
 }
 
 .child-1{ 
-    border: solid red;
+    border: solid rgb(255, 255, 255);
     grid-area: 2/2/3/4;
+    background-image:url('bte.png');
+    background-size: cover;
 
     /*grid area row start/column-start/row-end/column-end*/
 
@@ -40,16 +43,21 @@
 }
 
 .child-2{ 
-    border: solid orange;
+    border: solid rgb(255, 255, 255);
     grid-area: 4/2/5/4;
+    background-image:url('btw.png');
+    background-size: cover;
 
 }
 
 
 .child-3{ 
-    border: solid yellow;
-    /*grid-area: 1/2/3/4;*/
+    border: solid rgb(255, 255, 255);
+
     grid-area: 6/2/7/4;
+    background-image:url('btf.png');
+    background-size: cover;
+
 
 
 }
@@ -59,14 +67,18 @@
     border: solid green;
     grid-area: 3/7/6/8;
     font-size: 20px;
+    background-image:url('score.png');
+    background-size: cover;
 
 
 }
 
 
 .child-5{ 
-    border: solid purple;
+
     grid-area: 8/3/9/7;
+    background-image:url('bottombar.png');
+    background-size: cover;
 
 }
 
