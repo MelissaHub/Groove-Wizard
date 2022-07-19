@@ -16,7 +16,7 @@ I wanted to see If I could make a simple turn based game. It uses the same forma
 
 4.Background image/gif: 
 
-(![Main bg](flat1.jpg))
+![thwiz](Thewiz.gif)
 
 5.Button assests: 
 ![](bottombar.png)
@@ -42,7 +42,7 @@ I wanted to see If I could make a simple turn based game. It uses the same forma
 
 ### CSS
 
-- This is where we use grid to organize the child divs. Call all the child-1-6 classes and give them a different color border to identify each
+- This is where we use grid to organize the child divs. Call all the child-1-6 classes and give them a different color border to identify each. in child class make display flex and justify content and align items to center.
 
 - In the parent class display: with the sizes, margins(to help center), height, and width. From he it was playing around with the grid-template-columns and grid-template-rows and grid-gap to meet the ideal wireframe:
 
@@ -90,7 +90,7 @@ This is the look witht the atempted background
 
 10. computerPlay is a randomizer for the computer to choose earth wind or fire strings.
 
-11. playround() is the actual switch case that plays whichever is selcted and stores it the score. You can play with which adds scores ( I tried to do decriment scores, but that made it more complicated).
+11. playround() is the actual switch case that plays whichever is selcted and stores it the score. You can play with which adds scores ( I tried to do decriment scores, but that made it more complicated).   PUT THE computerPlay() randomizer in the switch cases instead!
 
 12. startGame() function activates when the c1-3 buttons are clicked witht eh event listeners inside. startGame() is called again to activate.
 

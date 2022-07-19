@@ -10,7 +10,7 @@ let score = document.querySelector('.child-4')
 
 let response = document.querySelector('.child-5')
 
-// let scoreBoard =document.getElementById("child-6").innerHTML
+
 
 //calling boxes
 
@@ -113,8 +113,7 @@ function computerPlay(){
 }
 // randomizer for computer
 
-
-const computerSelection = computerPlay()
+//put computer directly in playround to randomize
 
 
 
@@ -122,78 +121,78 @@ const computerSelection = computerPlay()
 
 
     function playRound(){ 
-        //parameters called in line 81 and 83
+
 
         response.innerHTML = 'Your move! earth wind or fire!'
-        //want to simply start in box 5, how to get the box to show up???
+
 
 console.log('ran')
-            // if ((userScore >= 0 && computerScore >= 0) || (userScore  < 10 || computerScore < 10)) {
-        //both scores start at zero, why not show up
+//test in console
+
         switch (playerSelection){ 
             case 'earth':
-                switch ( computerSelection){ 
+                switch ( computerPlay()){ 
 
                     case 'earth':  
-                    // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`  
+ 
                     return response.innerHTML  = "Earth V Earth, NO SCORE!" 
 
                     case 'wind':
                         computerScore++
-                        // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`         
-                    return response.innerHTML  = "Goove chose wind! You are hit!" 
+         
+                    return response.innerHTML  = "Goove chose wind! Groove is empowered" 
 
 
                     case 'fire':
                         userScore++
 
-                        // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`  
-                   return response.innerHTML  = "Groove chose fire! You are hit!" 
+  
+                   return response.innerHTML  = "Groove chose fire! You are empowered!" 
 
 
                 }
 
                 break
             case 'wind':
-                switch (computerSelection){ 
+                switch (computerPlay()){ 
                     case 'earth': 
-                    // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`  
-                    return response.innerHTML  = "Groove chose earth! You hit Yourself!" 
+  
+                    return response.innerHTML  = "Groove chose earth! No score!" 
 
                     
                     case 'wind':
                         computerScore++
-                        // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`     
-                     return response.innerHTML  = "Groove chose wind! They empower you!"    
+    
+                     return response.innerHTML  = "Groove chose wind! You empower Groove!"    
 
 
                     case 'fire':
                         userScore++
 
-                        // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}` 
-                    return response.innerHTML  = "Groove chose fire! They extinguish Their flame!"
+
+                    return response.innerHTML  = "Groove chose fire! They Empower you!!"
 
 
                 }
             break
             case 'fire':
-                switch ( computerSelection){ 
+                switch ( computerPlay()){ 
                     case 'earth': 
 
-                    // score.innerHTML =`User: ${userScore } Groove Wizard:   ${computerScore}` 
-                    return response.innerHTML   = "Groove chose fire! They are not affected" 
+
+                    return response.innerHTML   = "Groove chose earth! Neither are affected" 
 
 
                     case 'wind':
                   userScore++    
-                    // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`     
-                    return response.innerHTML   = "Groove chose fire! Groove gets extinguished" 
+ 
+                    return response.innerHTML   = "Groove chose wind! You are Empowered!" 
 
 
                     case 'fire':
                         userScore++
                         computerScore++
-                        // score.innerHTML =`User: ${userScore} Groove Wizard:   ${computerScore}`         
+       
                     return response.innerHTML   = "Groove chose fire! You both are empowered!" 
 
 

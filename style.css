@@ -11,20 +11,25 @@
     grid-gap:18px 15px;
     border: solid black;
     /* row column for gap */
-    background-image:url('flat1.jpg');
+    background-image:url('Thewiz.gif');
    background-size: cover;
+   
 }
 /*SOlid to see the border!*/
 /* 1f to all be equal spaces */
 
 .child{ 
-
+    display: flex;
+    justify-content:center;
+    align-items: center;
     padding:25;
     font-size: 2em; 
     color:white;
     font-family: monospace;
     text-align: center;
     border-radius: 8px;
+    font-size: 30px;
+    
 }
 
 .child:hover{ 
@@ -66,7 +71,7 @@
 .child-4{ 
     border: solid green;
     grid-area: 3/7/6/8;
-    font-size: 20px;
+    font-size: 25px;
     background-image:url('score.png');
     background-size: cover;
 
@@ -79,20 +84,20 @@
     grid-area: 8/3/9/7;
     background-image:url('bottombar.png');
     background-size: cover;
+    font-size: 20px;
 
 }
 
 
 .child-6{ 
-    border: solid blue;
+
+    border: solid rgb(255, 255, 255);
     grid-area: 3/5/6/6;
-
-}
-
-
-
-.child-7{ 
-    border: solid pink;
+    background-image:url('buttonres.png');
+    background-size: cover;
 
 
 }
+
+
+
