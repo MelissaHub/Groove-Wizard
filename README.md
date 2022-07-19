@@ -112,5 +112,5 @@ I would have never even fathomed it to even work is it wasnt for my wonderful cl
 
 ## PLAY HERE
 
-https://melissahub.github.io/Melissa.github.io/
+[Link to Game](https://melissahub.github.io/Melissa.github.io/)
 
